@@ -1,0 +1,17 @@
+library("dplyr")
+library("pdftools")
+
+
+setwd("K:/R Resources")
+
+
+
+pdf_text("data/Industrial Fire.pdf")
+
+#closest I got
+
+pdf_text("data/Industrial Fire.pdf") %>% strsplit(split = "\n")
+
+#how do I run this for all the PDF files in the data folder?
+
+
